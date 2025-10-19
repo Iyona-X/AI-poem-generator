@@ -11,13 +11,13 @@
     <header>
         <h1>AI French Poem Generator</h1>
     </header>
+    <form id="poem-form">
+        <input type="text" placeholder="Enter the topic of the French poem" class="instructions" id="user-instructions"
+            required />
+        <button class="submit-button" type="submit">Submit</button>
+    </form>
     
-    <main>
-        <form>
-            <input type="text" placeholder="Enter the topic of the French poem" autofocus required autocomplete="off" />
-            <input type="submit" />
-        </form>
-        <div class="poem">
+    <div class="poem" id="poem-display">
             La tombe dit à la rose
             <br />
             Des pleurs dont l'aube t'arrose

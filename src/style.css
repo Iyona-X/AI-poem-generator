@@ -47,20 +47,28 @@ form {
     background: #885df1;
     color: white;
     border: none;
-    width: 150px;
     font-size: 16px;
-    border-radius: 50px;
-    padding: 14px 24px;
+    border-radius: 25px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+.submit-button:hover {
+    opacity: 0.9;
+}
+.instructions {
+    padding: 14px 20px;
+    border: 1px solid #e5e7eb;
+    flex: 1;
+    font-size: 15px;
+    border-radius: 6px;
+    line-height: 20px;
+    color: #6b7280;
+    outline: none;
 }
 
-.instructions {
-    padding: 16px;
-    border: 1px solid rgba(39, 33, 66, 0.5);
-    width: 80%;
-    font-size: 16px;
-    border-radius: 50px;
-    line-height: 20px;
-    color: #272044;
+.instructions:focus {
+    border-color: #7c3aed;
 }
 
 footer {
